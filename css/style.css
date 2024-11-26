@@ -61,7 +61,11 @@ button {
     background-color: red;
     color: white;
     font-size: 3rem;
+}
 
+button:hover {
+    background-color: #eaeaea67;
+    
 }
 
 /* 1h 25min */
