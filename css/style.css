@@ -15,8 +15,12 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 400px;
+    padding: 40px;
+    padding-top: 75px;
     background-color: black;
-    border: 2px solid red;
+    border-radius: 25px;
+    /* border: 2px solid red; */
+    
 }
 
 .calculator-screen {
@@ -28,14 +32,16 @@ html {
     color: black;
     text-align: right;
     padding-right: 10px;
-    border: 2px solid greenyellow;
+    /* border: 2px solid greenyellow; */
 }
 
 .calculator-buttons {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    border: 2px solid yellow
+    padding: 15px;
+    padding-bottom: 5px;
+    /* border: 2px solid yellow */
 }
 
 button {
@@ -45,6 +51,15 @@ button {
     border-radius: 30px;
     font-size: 4rem;
     font-weight: bold;
-    color: black
+    color: black;
+    margin: 7px;
+    padding: 5px;
+    flex: 1 0 18%;
+}
+
+.all-clear{
+    background-color: red;
+    color: white;
+    font-size: 3rem;
 
 }
